@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+
+}
+
+a{
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 20px;
+    z-index: 2;
+}
+
+a:hover{
+    opacity: 0.4;
+}
+a.active{
+    color: #feb47b;
+}
+i:hover{
+    opacity: 0.4;
+}
+
+.hamb-menu{
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width:550px){
+    a{
+        display: none;
+    }
+    .hamb-menu{
+        display: inline;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+}
