@@ -53,7 +53,7 @@ function TypeWriter(){
     
     if( i < text.length){
         h1.innerHTML += text.charAt(i);
-        setTimeout(TypeWriter,50);
+        setTimeout(TypeWriter,100);
         i++
     }
 }
